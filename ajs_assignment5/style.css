@@ -1,0 +1,119 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: rgb(50, 133, 184);
+
+}
+
+#calculator {
+    margin-top: 5%;
+    margin-left: 35%;
+    text-align: center;
+    width: 24%;
+    height: 20%;
+    background: black;
+    display: block;
+    border-radius: 10%;
+    box-shadow: 10px 1px 20px 10px rgb(38, 39, 43);
+    /* box-shadow: -5px -5px rgb(170, 46, 46); */
+}
+
+.contents{
+    padding: 5%;
+}
+
+h1 {
+    color: white;
+    font-size: 1.8rem;
+    font-family: italic 
+}
+
+input {
+    width: 95%;
+    border: none;
+    height: 20vh;
+    background: black;
+    color: white;
+    text-align: end;
+    font-size: 2.5rem;
+    font-weight: 1%;
+}
+
+button {
+    margin: 5px;
+    background: rgb(220, 146, 18);
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 20%;
+    height: 8vh;
+    border-radius: 50%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#ans {
+    width: 35%;
+    height: 8vh;
+    border-radius: 45%;
+    font-size: 2rem;
+}
+
+#dot {
+    font-size: 2rem;
+}
+
+#clr {
+    width: 35%;
+    float: left;
+    /* height: 50%; */
+    height: 8vh;
+    border-radius: 45%;
+}
+
+#clr,
+#modulo {
+    background: rgb(184, 204, 212);
+}
+
+#ans,
+#plus,
+#minus,
+#multiply,
+#divie {
+    color: white;
+    font-size: 2rem;
+    float: right;
+}
+
+#dot,
+#block0,
+#block1,
+#block2,
+#block3,
+#block4,
+#block5,
+#block6,
+#block7,
+#block8,
+#block9 {
+    background: rgb(73, 77, 79);
+    color: white;
+
+}
+
+#block0{
+    float: left;
+}
+#dot{
+    margin-left: -1.5rem;
+}
+#modulo{
+   margin-left: 2rem; 
+}
+#multiply{
+    padding: 5%;
+}
